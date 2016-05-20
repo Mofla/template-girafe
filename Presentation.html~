@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Clé Caddie Clério</title>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet"> 
+
+    <!-- Liens -->
+
+
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+   <?php include('header.php'); ?>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main>
+        <section class="well-1">
+            <div class="container container-wide text-center">
+                <h2 class="head-bord-1">
+                    <span class="small">
+                        Pratique et efficace
+                    </span>
+                    On l'emporte partout !
+                </h2>
+                    </div> 
+                    <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-5 col-lg-offset-2 col-lg-5 offset-1">
+                        <ul class="marked-list">
+                            <div class="MonPremierPara"
+
+                        <p class="premier"> " Il s'adresse à toute <b>les sociétés</b> qui souhaite communiquer auprès des particuliers et fera le <b>succès de votre campagne de communication.</b> "</br> 
+                            <b>Article indispensable</b> pour toute personne qui fait ses courses, cette "clé caddie" rendra bien des services à tout vos clients et contacts. </br> 
+                            <b> Facile à mettre dans la poche ou dans la voiture,</b> on peut également l'accrocher à son porte-clés muni de son anneau, brevet et fabrication Française, cette "clé caddie" en Inox est personnalisable. </br> 
+                            Vous pouvez y <b>choisir la couleur</b> et même y faire <b>graver votre logo</b> ou vos coordonnées !! </br>
+                            <b>Ce produit publicitaire</b> vous aidera à rester dans l'esprit des consommateurs qui le garderont précieusement sur eux pour faire leurs courses. </br> <b>Vendu en lot de 500 à 10000</b>, vous pourrez facilement les distribuer lors d'un salon ou congrès, dans un magasin ou même dans la rue. <b>N'hésitez pas à nous contacter pour plus d'informations.</b> </p> 
+                    </div> 
+                    <img class="jeton" src="images/clef.jpg"/>
+
+                        <div class="gauche"> <li> <h5>Brevet 100% FRANCAIS !</h5>
+                                <p>Idée & Conception 100% Française ! </p> </div> 
+                            </li>
+                        <div class="centrer"> 
+                            <li> <h5>En INOX</h5>
+                                <p> Conçu plus écologiquement, cette clef Caddie est composée de 100% d'acier. </br>
+                                    Bien entendu ca ne ROUILLE PAS ! C'est Inoxydable !</p>
+                            </li>
+                        </div> 
+                            <li> <h5><a href="#">Made In France</a> </h5>
+                                <p>Objet en acier !</p>
+                            </li>
+                            <li> <h5><a href="#">Personnalisable !</a> </h5>
+                                <p>Choisissez vous même vos propres déco's pour votre porte clef jeton.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                    <div class="position"> 
+                        <a href="#" class="btn btn-primary preffix-1 relative z-1">Commandez Ici</a>
+                    </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--========================================================
+                            FOOTER
+    =========================================================-->
+    <footer>
+
+        <section>
+            <div class="container container-wide center-sm">
+                <div class="row">
+                    <div class="col-md-5 ">
+                        <p class="rights">
+                            &#169; <span id="copyright-year"></span> C, TOUS DROITS RESERVES A SIMPLON EPINAL.
+                            <!-- {%FOOTER_LINK} -->
+                        </p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <a href="#" class="brand-name">SIMPLON</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </footer>
+</div>
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

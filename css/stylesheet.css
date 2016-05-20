@@ -1,0 +1,180 @@
+.bg-image img { 
+	margin-left: 20%; 
+	margin-top:-65%;}
+
+.premier { 
+	width: 900px; 
+	height: 350px; 
+	font-size: 20px; 
+	text-align: center;
+  color: #f64d00;
+	 }
+
+.MonPremierPara { 
+  width: 700px; 
+  height: auto; 
+	text-align: center; 
+	margin-bottom: 50px;   
+  font-size: 15px; }
+
+.position {  
+  width: 900px; 
+  height: auto; 
+  margin-top:30px;
+  margin-left:680px;
+
+}
+
+span.small {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 2s;
+  animation-direction: alternate;
+  margin-top:5px;
+
+}
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+    
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+      
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+@keyframes slidein {
+  from {
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+h2.head-bord-1 { 
+
+margin-top: 30px; 
+font-family: Crimson Text; 
+
+}
+h1.head-bord-1 { 
+	font-family: Bree Serif;  
+}
+
+p.titre { 
+	margin-right:250px;
+  color:grey;
+ }
+
+img { 
+  width: 300px; 
+  height: 300px;
+  margin-left: 250px;  
+  margin-top:-60px; }
+
+img.jeton{
+  -webkit-transition:-webkit-transform .9s; // Chrome Safari
+  -moz-transition:-moz-transform .9s;       // Mozilla
+  -o-transition:-o-transform .9s;           // Opéra
+  -ms-transition:-ms-transform .9s;         // IE
+  transition:transform .9s;
+}
+.b1b{border:1px solid black;}
+img.jeton:hover{
+  -webkit-transform:rotate(540deg); 
+  -moz-transform:rotate(540deg);
+  -o-transform:rotate(540deg); 
+  -ms-transform:rotate(540deg); 
+  transform:rotate(540deg);
+}
+
+.MonPremierPara { 
+  width: 900px; 
+  height: auto; 
+  border:2px dotted grey;
+/*  background-color:#F4A460 ;*/}
+
+span.Deco {  
+  text-decoration: underline; 
+  color:#f64d00; 
+  }
+
+.Boite { 
+  width: 900px; 
+  height: auto; 
+  text-align: center;
+}
+h5 {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 2s;
+  animation-direction: alternate;
+  margin-top:5px;
+
+}
+img.zoomEffect {
+    margin-top:60px;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 0.7;
+}
+img.zoomEffect:hover {
+    -moz-transform: rotate(5deg) scale(1.10);
+    -webkit-transform: rotate(5deg) scale(1.10);
+    -o-transform: rotate(5deg) scale(1.10);
+    -ms-transform: rotate(5deg) scale(1.10);
+    transform: rotate(5deg) scale(1.10);
+    opacity: 1;
+}
+img.zoomOriginEffect {
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 0.7;
+}
+img.zoomOriginEffect:hover {
+    transform: rotate(25deg);
+    opacity: 1;
+    transform-origin: top left;
+}
+h5.bouge { 
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 2s;
+  animation-direction: alternate;
+  margin-top:5px;
+  animation-delais:3s; 
+}
+
