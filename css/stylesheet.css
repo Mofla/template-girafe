@@ -110,7 +110,7 @@ img.jeton{
   -ms-transition:-ms-transform .9s;         // IE
   transition:transform .9s;
 }
-.b1b{border:1px solid black;}
+.{border:1px solid black;}
 img.jeton:hover{
   -webkit-transform:rotate(540deg); 
   -moz-transform:rotate(540deg);

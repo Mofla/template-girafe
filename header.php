@@ -13,20 +13,14 @@
         
           <ul class=" navbar-nav sf-menu navbar-right" data-type="navbar">
             <li class="">
-              <a href="#">Accueil</a>
+              <a href="index.php">Accueil</a>
             </li>
             <li class="">
-              <a href="#">A propos de nous</a>
-            </li>
-            <li class="">
-              <a href="Presentation.php">Présentation</a>
-            </li>
-            <li class="">
-              <a href="Commandes.php">Commandez</a>
+              <a href="commandes.php">Commandez</a>
             </li>
 
             <li class="active">
-              <a href="Contacts.php">Contactez-nous</a>
+              <a href="contacts.php">Contactez-nous</a>
             </li>
 
           </ul><!-- navbar: MENU -->

@@ -380,9 +380,9 @@ h1.nav-brand :before{
     background-color:grey;
     
 }
-.b1b{border:2px solid black;}
+.{border:2px solid black;}
 .b1r{border:2px solid red;}
-.b1blue{border:3px solid blue;}
+.lue{border:3px solid blue;}
 .page-header {
 background-attachment:scroll;
 background-clip:border-box;
